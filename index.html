@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Imersão Dev - Aula 07</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Pok%C3%A9mon_Trading_Card_Game_logo.svg/312px-Pok%C3%A9mon_Trading_Card_Game_logo.svg.png" class="page-logo"
+            alt="">
+        <h1 class="page-title">PokeTrunfo</h1>
+
+        <button onclick="sortearCarta()" id="btnSortear">Sortear Pokémon</button>
+
+        <form id="form">
+            <h2>Escolha o sua Ação</h2>
+            <div class="opcoes" id="opcoes"></div>
+            <button type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+        </form>
+    </div>
+    <script src="pokemonCard.js"></script>
+</body>
+</html>
